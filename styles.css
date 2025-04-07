@@ -63,8 +63,16 @@ p {
 
 .content {
     height: 91vh;
-    background-image: url('freedom.webp');
+    background-image: url('./images/freedom.webp');
     background-size: contain;
     /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.mums-side {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./images/family.png');
+    background-size: cover;
     background-position: center;
 }
